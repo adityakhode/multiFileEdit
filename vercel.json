@@ -1,6 +1,6 @@
 {
     "version":2,
-    "build":[{"src":"server.py", "use":"@vercal/python"}],
+    "builds":[{"src":"server.py", "use":"@vercal/python"}],
 
     "routes":[{"src":"/(.*)", "dest": "app.py"}]
 }
